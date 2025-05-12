@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import dotenv from 'dotenv';
+//import dotenv from 'dotenv';
 import usersRouter from './routes/users.js';
 import booksRouter from './routes/books.js';
 import loansRouter from './routes/loans.js';
@@ -9,7 +9,7 @@ import statsRouter from './routes/stats.js';
 
 // Load environment variables
 //have to edit this file a bit
-dotenv.config();
+//dotenv.config();
 
 const app = express();
 
