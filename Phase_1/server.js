@@ -8,6 +8,7 @@ import loansRouter from './routes/loans.js';
 import statsRouter from './routes/stats.js';
 
 // Load environment variables
+//have to edit this file a bit
 dotenv.config();
 
 const app = express();
