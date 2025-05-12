@@ -43,20 +43,28 @@ app.use("/api/loans", loansRouter);
 app.use("/api/stats", statsRouter);
 
 // MongoDB Atlas connection
-mongoose
-  .connect(process.env.MONGODB_URI)
-  .then(() => {
-    console.log("Connected to MongoDB Atlas");
-    console.log(
-      "MongoDB URI:",
-      process.env.MONGODB_URI.replace(/:([^:@]+)@/, ":****@")
-    ); // Hide password
-    console.log("Database name:", mongoose.connection.name);
-  })
-  .catch((err) => {
-    console.error("MongoDB Atlas connection error:", err.message);
-    console.error("Stack:", err.stack);
-  });
+// mongoose
+//   .connect(process.env.MONGODB_URI)
+//   .then(() => {
+//     console.log("Connected to MongoDB Atlas");
+//     console.log(
+//       "MongoDB URI:",
+//       process.env.MONGODB_URI.replace(/:([^:@]+)@/, ":****@")
+//     ); // Hide password
+//     console.log("Database name:", mongoose.connection.name);
+//   })
+//   .catch((err) => {
+//     console.error("MongoDB Atlas connection error:", err.message);
+//     console.error("Stack:", err.stack);
+//   });
+const connect = mongoose.connect('mongodb://127.0.0.1:27017/smart_library_db');
+connect.then(()=>{
+    console.log("database connected");
+}
+)
+.catch((err)=>{
+    console.log("Not connected",err);
+})
 
 // Log connection events
 mongoose.connection.on("connected", () =>
@@ -70,5 +78,5 @@ mongoose.connection.on("error", (err) =>
 );
 
 // Start server
-const PORT = process.env.PORT || 3000;
+const PORT =  3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
