@@ -67,15 +67,15 @@ connect.then(()=>{
 })
 
 // Log connection events
-mongoose.connection.on("connected", () =>
-  console.log("Mongoose connected to Atlas")
-);
-mongoose.connection.on("disconnected", () =>
-  console.warn("Mongoose disconnected from Atlas")
-);
-mongoose.connection.on("error", (err) =>
-  console.error("Mongoose error:", err.message)
-);
+// mongoose.connection.on("connected", () =>
+//   console.log("Mongoose connected to Atlas")
+// );
+// mongoose.connection.on("disconnected", () =>
+//   console.warn("Mongoose disconnected from Atlas")
+// );
+// mongoose.connection.on("error", (err) =>
+//   console.error("Mongoose error:", err.message)
+// );
 
 // Start server
 const PORT =  3000;
