@@ -1,9 +1,20 @@
 const mongoose = require('mongoose');
+const User = require('../models/userModel');
 
-// User Schema
-const userSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
-  role: { type: String, enum: ['student', 'librarian'], required: true },
-});
-const User = mongoose.model('User', userSchema);
+exports.createUser = async (req, res) => {
+  try {
+    const user = new User(req.body);
+    await user.save();
+    res.status(201).json({
+      _id: user._id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      created_at: user.created_at,
+      updated_at: user.updated_at,
+    });
+  } catch (error) {
+    console.error('User creation error:', error.message);
+    res.status(400).json({ error: error.message });
+  }
+};
