@@ -11,9 +11,9 @@ const {
 } = require('../controllers/loanController');
 
 router.post('/', createLoan);
-router.get('/:id',getLoan);
 router.get('/', getAllLoans);
 router.post('/returns', returnLoan);
+router.get('/:id',getLoan);
 router.get('/user/:id', getUserLoanHistory)
 
 // router.get('/ping-user', async (req, res) => {

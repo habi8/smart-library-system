@@ -78,14 +78,14 @@ let user = {};
 try {
   const userResp = await axios.get(`http://localhost:3001/api/users/${loan.user_id}`);
   user = {
-    id: userResp.data._id,
+    _id: userResp.data._id,
     name: userResp.data.name,
     email: userResp.data.email,
   };
 } catch (err) {
   console.error('Error fetching user:', err.message);
   user = {
-    id: loan.user_id,
+    _id: loan.user_id,
     error: 'User data unavailable',
   };
 }
@@ -95,14 +95,14 @@ let book = {};
 try {
   const bookResp = await axios.get(`http://localhost:3002/api/books/${loan.book_id}`);
   book = {
-    id: bookResp.data._id,
+    _id: bookResp.data._id,
     title: bookResp.data.title,
     author: bookResp.data.author,
   };
 } catch (err) {
   console.error('Error fetching book:', err.message);
   book = {
-    id: loan.book_id,
+    _id: loan.book_id,
     error: 'Book data unavailable',
   };
 }
@@ -188,7 +188,7 @@ exports.returnLoan = async (req, res) => {
 
 //get loan history
 exports.getUserLoanHistory = async (req, res) => {
-const userId = req.params.user_id;
+const userId = req.params.id;
 
 try {
 const loans = await Loan.find({ user_id: userId });
