@@ -1,0 +1,234 @@
+[{
+  "_id": {
+    "$oid": "68220266ce47b8fb67b155ad"
+  },
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "isbn": "9780132350880",
+  "genre": "",
+  "copies": 3,
+  "available_copies": 2,
+  "created_at": {
+    "$date": "2025-05-12T14:15:02.587Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:25:27.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220278ce47b8fb67b155af"
+  },
+  "title": "Absolutely Clean Code",
+  "author": "Robert A. Martin",
+  "isbn": "9780132350881",
+  "genre": "",
+  "copies": 9,
+  "available_copies": 8,
+  "created_at": {
+    "$date": "2025-05-12T14:15:20.714Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:25:54.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822028cce47b8fb67b155b1"
+  },
+  "title": "Brilliance of Clean Code",
+  "author": "Robert B. Martin",
+  "isbn": "9780132350882",
+  "genre": "",
+  "copies": 7,
+  "available_copies": 6,
+  "created_at": {
+    "$date": "2025-05-12T14:15:40.292Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:26:23.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682202a7ce47b8fb67b155b3"
+  },
+  "title": "Criteria of Clean Code",
+  "author": "Robert  Martin",
+  "isbn": "9780132350883",
+  "genre": "",
+  "copies": 16,
+  "available_copies": 16,
+  "created_at": {
+    "$date": "2025-05-12T14:16:07.237Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:16:07.237Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682202c4ce47b8fb67b155b5"
+  },
+  "title": "Emerging Clean Code",
+  "author": "Robert E. Martin",
+  "isbn": "9780132350885",
+  "genre": "",
+  "copies": 14,
+  "available_copies": 14,
+  "created_at": {
+    "$date": "2025-05-12T14:16:36.665Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:16:36.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682202d8ce47b8fb67b155b7"
+  },
+  "title": "Fantastic Code",
+  "author": "Robert F. Martin",
+  "isbn": "9780132350886",
+  "genre": "",
+  "copies": 16,
+  "available_copies": 12,
+  "created_at": {
+    "$date": "2025-05-12T14:16:56.333Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:42:06.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682202e8ce47b8fb67b155b9"
+  },
+  "title": "Great Code",
+  "author": "Robert G. Martin",
+  "isbn": "9780132350887",
+  "genre": "",
+  "copies": 27,
+  "available_copies": 27,
+  "created_at": {
+    "$date": "2025-05-12T14:17:12.630Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:34:41.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682202ffce47b8fb67b155bb"
+  },
+  "title": "High level Coding",
+  "author": "Robert H. Martin",
+  "isbn": "9780132350888",
+  "genre": "",
+  "copies": 8,
+  "available_copies": 7,
+  "created_at": {
+    "$date": "2025-05-12T14:17:35.950Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:26:57.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220315ce47b8fb67b155bd"
+  },
+  "title": "Coding Intelligence",
+  "author": "Robert I. Martin",
+  "isbn": "9780132350889",
+  "genre": "",
+  "copies": 11,
+  "available_copies": 11,
+  "created_at": {
+    "$date": "2025-05-12T14:17:57.581Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:17:57.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822032cce47b8fb67b155bf"
+  },
+  "title": "Coding Jackpot",
+  "author": "Robert J. Martin",
+  "isbn": "9780132350890",
+  "genre": "",
+  "copies": 19,
+  "available_copies": 18,
+  "created_at": {
+    "$date": "2025-05-12T14:18:20.335Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:40:57.747Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220345ce47b8fb67b155c1"
+  },
+  "title": "Linear coding",
+  "author": "Robert L. Martin",
+  "isbn": "9780132350891",
+  "genre": "",
+  "copies": 12,
+  "available_copies": 11,
+  "created_at": {
+    "$date": "2025-05-12T14:18:45.104Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:27:35.445Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220350ce47b8fb67b155c3"
+  },
+  "title": "Maximum coding",
+  "author": "Robert M. Martin",
+  "isbn": "9780132350892",
+  "genre": "",
+  "copies": 13,
+  "available_copies": 13,
+  "created_at": {
+    "$date": "2025-05-12T14:18:56.392Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:18:56.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220361ce47b8fb67b155c5"
+  },
+  "title": "Nuclear coding",
+  "author": "Robert N. Martin",
+  "isbn": "9780132350893",
+  "genre": "",
+  "copies": 5,
+  "available_copies": 0,
+  "created_at": {
+    "$date": "2025-05-12T14:19:13.245Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:39:46.057Z"
+  },
+  "__v": 0
+}]

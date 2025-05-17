@@ -1,0 +1,420 @@
+[{
+  "_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "name": "Alice Smith",
+  "email": "alice@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T13:54:01.927Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T13:54:01.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821fdd8ce47b8fb67b15574"
+  },
+  "name": "Abdur Rahim",
+  "email": "abdur.rahim@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T13:55:36.453Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T13:55:36.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821fe14ce47b8fb67b15578"
+  },
+  "name": "Barister Sumon",
+  "email": "footballersumon@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T13:56:36.075Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T13:56:36.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821fe2cce47b8fb67b1557a"
+  },
+  "name": "Cristiano Ronaldo",
+  "email": "cristiano7@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T13:57:00.886Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T13:57:00.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821febdce47b8fb67b1557c"
+  },
+  "name": "Diddy",
+  "email": "diddyy@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T13:59:25.592Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T13:59:25.592Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821fecfce47b8fb67b1557e"
+  },
+  "name": "Donald Trump",
+  "email": "trump2025@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T13:59:43.818Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T13:59:43.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821fef3ce47b8fb67b15580"
+  },
+  "name": "Elvish bhai",
+  "email": "elvishbhaiiii@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:00:19.136Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:00:19.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ff09ce47b8fb67b15582"
+  },
+  "name": "Fermin Lopez",
+  "email": "flopez@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:00:41.537Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:00:41.537Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ff30ce47b8fb67b15584"
+  },
+  "name": "Govinda",
+  "email": "nach.govinda@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:01:20.221Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:01:20.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ff4ace47b8fb67b15586"
+  },
+  "name": "Humayun Ahmed",
+  "email": "amarachewater@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:01:46.073Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:01:46.073Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ff64ce47b8fb67b15588"
+  },
+  "name": "Ilias Kanchon",
+  "email": "saferoads.ilias@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:02:12.801Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:02:12.801Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ff85ce47b8fb67b1558a"
+  },
+  "name": "Julian Alvarez",
+  "email": "alvarezj9@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:02:45.036Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:02:45.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ff9dce47b8fb67b1558c"
+  },
+  "name": "Kushtia Ronaldo",
+  "email": "realronaldo@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:03:09.601Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:03:09.601Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ffb7ce47b8fb67b1558e"
+  },
+  "name": "Lionel Messi",
+  "email": "goat@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:03:35.314Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:03:35.314Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821ffe3ce47b8fb67b15590"
+  },
+  "name": "Mofiz master",
+  "email": "master.mofiz@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:04:19.230Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:04:19.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821fff8ce47b8fb67b15592"
+  },
+  "name": "Nunu Mia",
+  "email": "mia4@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:04:40.675Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:04:40.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220023ce47b8fb67b15594"
+  },
+  "name": "Oggy",
+  "email": "oggy78@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:05:23.933Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:05:23.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822004cce47b8fb67b15596"
+  },
+  "name": "Pondronath Choddar",
+  "email": "pc1234@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:06:04.064Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:06:04.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220063ce47b8fb67b15598"
+  },
+  "name": "qwerty",
+  "email": "qwerty123456@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:06:27.700Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:06:27.700Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220089ce47b8fb67b1559a"
+  },
+  "name": "Roshid ahmed",
+  "email": "roshidtakla@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:07:05.406Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:07:05.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822009dce47b8fb67b1559c"
+  },
+  "name": "Siam ahmed",
+  "email": "jonglisiam@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:07:25.658Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:07:25.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682200bfce47b8fb67b1559e"
+  },
+  "name": "Thiago",
+  "email": "thiago46@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:07:59.196Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:07:59.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682200dbce47b8fb67b155a0"
+  },
+  "name": "Uri gagerine",
+  "email": "ug19##@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:08:27.670Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:08:27.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682200f2ce47b8fb67b155a2"
+  },
+  "name": "Victor valdez",
+  "email": "vvaldez13@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:08:50.052Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:08:50.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822010dce47b8fb67b155a4"
+  },
+  "name": "William Shakespere",
+  "email": "wshakespere@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:09:17.722Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:09:17.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822011ece47b8fb67b155a6"
+  },
+  "name": "Xhaka",
+  "email": "xxhakaa@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:09:34.914Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:09:34.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220131ce47b8fb67b155a8"
+  },
+  "name": "Zinedin Zidan",
+  "email": "zidan10@example.com",
+  "role": "student",
+  "created_at": {
+    "$date": "2025-05-12T14:09:53.458Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:09:53.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682201fcce47b8fb67b155ab"
+  },
+  "name": "Bongoboltu",
+  "email": "bongoboltumorenaiii@example.com",
+  "role": "faculty",
+  "created_at": {
+    "$date": "2025-05-12T14:13:16.865Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:13:16.865Z"
+  },
+  "__v": 0
+}]

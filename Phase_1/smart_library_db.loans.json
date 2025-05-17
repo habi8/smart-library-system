@@ -1,0 +1,367 @@
+[{
+  "_id": {
+    "$oid": "682204d7ce47b8fb67b155cc"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "68220266ce47b8fb67b155ad"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:25:27.623Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:25:27.623Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:25:27.623Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682204f2ce47b8fb67b155d1"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "68220278ce47b8fb67b155af"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:25:54.093Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:25:54.093Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:25:54.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822050fce47b8fb67b155d6"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "6822028cce47b8fb67b155b1"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:26:23.438Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:26:23.438Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:26:23.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220523ce47b8fb67b155db"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "682202d8ce47b8fb67b155b7"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:26:43.764Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:26:43.764Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:26:43.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68220531ce47b8fb67b155e0"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "682202ffce47b8fb67b155bb"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:26:57.571Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:26:57.571Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:26:57.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822053fce47b8fb67b155e5"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "682202e8ce47b8fb67b155b9"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "RETURNED",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:27:11.726Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:27:11.726Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:34:41.411Z"
+  },
+  "__v": 0,
+  "return_date": {
+    "$date": "2025-05-12T14:34:41.411Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68220557ce47b8fb67b155ea"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "68220345ce47b8fb67b155c1"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:27:35.445Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:27:35.445Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:27:35.445Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6822056bce47b8fb67b155ef"
+  },
+  "user_id": {
+    "$oid": "6821fd795c0e6c8a6a275e11"
+  },
+  "book_id": {
+    "$oid": "68220361ce47b8fb67b155c5"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:27:55.300Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:27:55.300Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:27:55.300Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682208103916e41a9c1b1b32"
+  },
+  "user_id": {
+    "$oid": "6821fdd8ce47b8fb67b15574"
+  },
+  "book_id": {
+    "$oid": "68220361ce47b8fb67b155c5"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:39:12.660Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:39:12.660Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:39:12.660Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682208323916e41a9c1b1b37"
+  },
+  "user_id": {
+    "$oid": "6821fe2cce47b8fb67b1557a"
+  },
+  "book_id": {
+    "$oid": "68220361ce47b8fb67b155c5"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:39:46.057Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:39:46.057Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:39:46.057Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682208793916e41a9c1b1b3e"
+  },
+  "user_id": {
+    "$oid": "6821fef3ce47b8fb67b15580"
+  },
+  "book_id": {
+    "$oid": "6822032cce47b8fb67b155bf"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:40:57.747Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:40:57.747Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:40:57.747Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682208953916e41a9c1b1b43"
+  },
+  "user_id": {
+    "$oid": "6821fef3ce47b8fb67b15580"
+  },
+  "book_id": {
+    "$oid": "682202d8ce47b8fb67b155b7"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:41:25.958Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:41:25.958Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:41:25.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682208b33916e41a9c1b1b48"
+  },
+  "user_id": {
+    "$oid": "6821ffe3ce47b8fb67b15590"
+  },
+  "book_id": {
+    "$oid": "682202d8ce47b8fb67b155b7"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:41:55.161Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:41:55.161Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:41:55.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682208be3916e41a9c1b1b4d"
+  },
+  "user_id": {
+    "$oid": "6821fff8ce47b8fb67b15592"
+  },
+  "book_id": {
+    "$oid": "682202d8ce47b8fb67b155b7"
+  },
+  "due_date": {
+    "$date": "2025-05-15T23:59:59.000Z"
+  },
+  "status": "ACTIVE",
+  "extensions_count": 0,
+  "issue_date": {
+    "$date": "2025-05-12T14:42:06.594Z"
+  },
+  "created_at": {
+    "$date": "2025-05-12T14:42:06.594Z"
+  },
+  "updated_at": {
+    "$date": "2025-05-12T14:42:06.594Z"
+  },
+  "__v": 0
+}]
