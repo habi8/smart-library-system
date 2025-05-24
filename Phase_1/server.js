@@ -37,6 +37,9 @@ app.get("/api/health", async (req, res) => {
 });
 
 // Routes
+app.get('/api', async(req,res)=>{
+    res.send("Service running");
+});
 app.use("/api/users", usersRouter);
 app.use("/api/books", booksRouter);
 app.use("/api/loans", loansRouter);
