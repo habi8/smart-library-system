@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const loanRoutes = require('./routes/loanRoute');
 
 const app = express();
-const connect = mongoose.connect('mongodb://127.0.0.1:27017/LoanDB');
+const connect = mongoose.connect('mongodb://mongodb:27017/LoanDB');
 connect.then(()=>{
     console.log("database connected");
 }

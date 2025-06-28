@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const userRoutes = require('./routes/userRoute');
 
 const app = express();
-const connect = mongoose.connect('mongodb://127.0.0.1:27017/UserDB');
+const connect = mongoose.connect('mongodb://host.docker.internal:27017/UserDB');
 connect.then(()=>{
     console.log("database connected");
 }
