@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const bookRoutes = require('./routes/bookRoutes');
 
 const app = express();
-const connect = mongoose.connect('mongodb://mongodb:27017//BookDB');
+const connect = mongoose.connect('mongodb://mongodb:27017/BookDB');
 connect.then(()=>{
     console.log("database connected");
 }

@@ -1,0 +1,60 @@
+version: "3.8"
+
+services:
+  userservice:
+    build:
+      context: ./UserService
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    networks:
+      - smart-library-network
+
+  bookservice:
+    build:
+      context: ./BookService
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3002"
+    networks:
+      - smart-library-network
+
+  loanservice:
+    build:
+      context: ./LoanService
+      dockerfile: Dockerfile
+    ports:
+      - "3003:3003"
+    networks:
+      - smart-library-network
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - smart-library-network
+    volumes:
+      - mongo-data:/data/db
+
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - userservice
+      - bookservice
+      - loanservice
+      - mongo
+    networks:
+      - smart-library-network
+
+networks:
+  smart-library-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
